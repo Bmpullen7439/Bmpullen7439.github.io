@@ -1,0 +1,112 @@
+/*  Universal CSS reset to remove whitespace*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ul.navBarList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+}
+
+li.navBarLi {
+  float: left;
+}
+
+li.navBarLi a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.navBarLi a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: green;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body {background-color: powderblue;}
+h1 {
+  color: blue;
+  font-size: 24pt;
+  align-content: right;
+  align: center;
+}
+h2 {
+  font-size: 22pt;
+}
+p    {
+  color: black;
+  font-size: 18pt;
+}
+
+#container {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+#contactFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-size: 18pt;
+  width: 100%;
+
+}
+
+.rightColumn {
+  width: 60%;
+  height: 74vh;
+  float: right;
+  font-size: 18pt;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid;
+}
+
+#aboutParagraph {
+  text-indent: 50px;
+}
+
+h1.headerT1 {
+  text-align:center; 
+  margin-bottom:2%;
+}
+
+
+
