@@ -4,9 +4,9 @@
     <link rel="stylesheet" type="text/css" href="index.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 	
     <!-- jQuery CDN _ Add this to all html files to import navbar.  Don't forget to create navbar div.-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="jquery-3.3.1.js"></script>
     <script>
-        $(function(){
+        $(document).ready(function(){
             $('#navBar').load('navbar.html');
         })
     </script>
@@ -15,17 +15,20 @@
 		
 <body>
     <div id="navBar"></div>
-    
+    <div id="fixedHeader">
+        <h1 class="fixedHeader">Brian Marshall Pullen's Website</h1>
+    </div>
     <div id="container">
-        <h1 class="headerT1">Brian Marshall Pullen's Website</h1>
-        <img src="http://pastorcharlesfinny.org/wp-content/uploads/2017/04/persevere.jpg" alt="NEVER GIVE UP" width="500" height="600"> 
+        <div class="leftColumn">
+            <img id="image" src="http://pastorcharlesfinny.org/wp-content/uploads/2017/04/persevere.jpg" alt="NEVER GIVE UP" > 
+        </div>
         <div class="rightColumn">
-
+            <p>Welcome to my website! The purpose of this website is to serve as a portfolio of my work, and to demonstrate that I am able to use HTML, CSS, and JavaScript as part of my class: COP 1500 - Introduction to Computer Science.  Feel free to browse around using the navigation bar at the top of the page. If you would like to listen to some good music while you browse, you can check out the video below, "Money" by Pink Floyd: <br></p><br>
+            <iframe id="myVideo" width="560" height="315" src="https://www.youtube.com/embed/cpbbuaIA3Ds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
         </div>   
     </div>
-       
-</body> 
- 
- 			
+    
+</body> 	
 </html> 
 
