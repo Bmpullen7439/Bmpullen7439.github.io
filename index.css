@@ -15,15 +15,9 @@
   position: relative;
   top: 45px;
   width: 100vw;
+  padding-top: 10px;
 }
 body {background-color: powderblue;}
-
-h1 {
-  color: blue;
-  font-size: 24pt;
-  align-content: right;
-  text-align: center;
-}
 
 h2 {
   font-size: 22pt;
@@ -60,15 +54,9 @@ p    {
   /* display: table-cell; */
   float: right;
   font-size: 18pt;
-  
-  
   text-align: center;
   vertical-align: bottom;
   
-}
-
-#aboutParagraph {
-  text-indent: 50px;
 }
 
 .myVideo {
