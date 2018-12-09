@@ -1,0 +1,80 @@
+#container {
+    margin: auto;
+    border: solid 2px;
+/*     
+    height: 270px;
+    width: 1240px;
+    padding-left: 40px;
+    padding-right: 40px;
+     */
+    width: 80%;
+    height: 74vh;
+    /* top: 50px;
+    left: 50px;
+    right: 50px;
+    bottom: 50px; */
+
+}
+#encContainer, #decContainer{
+    box-sizing: border-box;
+    position: relative;
+    height: 85%;
+    width: 45%;
+    /* resize: both; */
+    /* margin: 10px; */
+    padding: 10px;
+    padding-top: 0px;
+    border: solid 2px;
+    overflow: auto;
+}
+#encContainer::after, #decContainer::after {
+
+}
+.divHeader {
+    margin: 10px;
+}
+#encContainer {
+    float: left;
+}
+#decContainer {
+    float: right;
+}
+#headerContainer {
+    margin-bottom: 20px;
+}
+h2, h3 {
+    text-align: center;
+
+}
+#encInput, #decInput {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    width: 325px;
+}
+
+#encBtn, #decBtn {
+    width: 96px;
+    height: 47px;
+    float: right;
+    z-index: 1;
+    /* border: 1px solid black; */
+
+}
+.button {
+    background-color: #555555;
+    border-bottom: 2px solid #444444;
+    border-right: 2px solid #333333;
+    border-left: 2px solid #777777;
+    border-top: 2px solid #777777;
+}
+.button:hover {
+    background-color: #444444;
+}
+.button:active {
+    /* transform: translate(1px,1px); */
+    border: 2px solid white;
+}
+
+#encResult, #decResult, p {
+    display: inline;
+}
