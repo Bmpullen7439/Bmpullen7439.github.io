@@ -1,0 +1,91 @@
+/*  Universal CSS reset to remove whitespace*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#fixedHeader {
+  float: top;
+  position: relative;
+  top: 45px;
+  width: 100vw;
+}
+body {background-color: powderblue;}
+
+h1 {
+  color: blue;
+  font-size: 24pt;
+  align-content: right;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22pt;
+}
+p    {
+  color: black;
+  font-size: 14pt;
+  text-align: left;
+}
+
+#container {
+  position: relative;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+  margin-top: 65px;
+  margin-bottom: 30px;
+  /* height: auto;
+  overflow: auto; */
+  
+}
+
+.leftColumn {
+  position: absolute;
+  float: left;
+  width: 40%;
+  height: 560px;   
+  overflow: auto;
+}
+.rightColumn {
+  width: 60%;
+  height: 560px;
+  /* display: table-cell; */
+  float: right;
+  font-size: 18pt;
+  
+  
+  text-align: center;
+  vertical-align: bottom;
+  
+}
+
+#aboutParagraph {
+  text-indent: 50px;
+}
+
+.myVideo {
+  float: right;
+}
+
+#image {
+  max-width: 500px;
+  height: 555px;
+  overflow: auto;
+}
+
+/* .tier1, .tier2 {
+  background-color: #555555;
+  border-bottom: 2px solid #444444;
+  border-right: 2px solid #333333;
+  border-left: 2px solid #777777;
+  border-top: 2px solid #777777;
+  float: left;
+} */
