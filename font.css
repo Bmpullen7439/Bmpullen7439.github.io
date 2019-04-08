@@ -1,3 +1,19 @@
+/* The main SVG */
+.button-icons {
+  width: 1.25em;
+}
+
+/* The individual icons */
+.icon {
+  fill: #fff;
+}
+
+
+/* We hide the checkmark by default */
+#checkmark {
+ visibility: hidden;
+}
+/*I got this code snippit from css-tricks author:Geoff Graham */
 .paragraph {
   text-indent: 50px;
   line-height: 1.6;
